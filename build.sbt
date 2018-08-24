@@ -52,6 +52,14 @@ libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-graphx_2.11" % "2.3.0" % "provided"
 )
 
+libraryDependencies += "org.apache.hadoop" % "hadoop-common" % "2.7.3"
+
+libraryDependencies += "org.apache.hadoop" % "hadoop-client" % "2.7.3"
+
+libraryDependencies += "org.apache.hadoop" % "hadoop-hdfs" % "2.7.3"
+
+libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-core" % "2.7.3"
+
 libraryDependencies += "com.yammer.metrics" % "metrics-core" % "2.2.0"
 
 libraryDependencies += "com.typesafe" % "config" % "1.2.1"
