@@ -1,10 +1,9 @@
-package test;
+package 田伟宏;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class 输入未知长度数组 {
-
+public class 输入不固定长度数组 {
     public static void main(String args[]) {
         System.out.print("请输入数组(空格隔开)：");
         Scanner sc = new Scanner(System.in);
